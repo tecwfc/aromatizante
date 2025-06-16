@@ -156,7 +156,7 @@ function atualizarDashboard(acessos) {
 
 // Registrar acesso e atualizar ao carregar
 const acessos = registrarAcesso();
-atualizarDashboard(acesso);
+atualizarDashboard(acessos);
 
 // Botão voltar
 document.getElementById('btn-voltar').addEventListener('click', () => {
