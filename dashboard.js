@@ -160,5 +160,5 @@ atualizarDashboard(acesso);
 
 // Botão voltar
 document.getElementById('btn-voltar').addEventListener('click', () => {
-  window.location.href = 'tecwfc.github.io/aromatizante/'; // ajuste para sua página principal
+  window.location.href = 'https://tecwfc.github.io/aromatizante/'; // ajuste para sua página principal
 });
