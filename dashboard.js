@@ -156,9 +156,9 @@ function atualizarDashboard(acessos) {
 
 // Registrar acesso e atualizar ao carregar
 const acessos = registrarAcesso();
-atualizarDashboard(acesso);
+atualizarDashboard(acessos);
 
 // Botão voltar
 document.getElementById('btn-voltar').addEventListener('click', () => {
-  window.location.href = 'https://tecwfc.github.io/aromatizante/'; // ajuste para sua página principal
+  window.location.href = 'https://tecwfc.github.io/aromatizante/'; // Este é o endereço real
 });
