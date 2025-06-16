@@ -1,6 +1,6 @@
 // Função para registrar o acesso atual no localStorage
 function registrarAcesso() {
-  const key = 'acessos_site';
+  const key = 'acesso_site';
   let acessos = JSON.parse(localStorage.getItem(key)) || [];
   acessos.push(new Date().toISOString());
   localStorage.setItem(key, JSON.stringify(acessos));
